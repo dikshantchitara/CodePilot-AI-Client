@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #90caf9;
+}
+
+.MuiPaper-root {
+  background-color: #2d2d2d !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  color: #ffffff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-notchedOutline {
+  border-color: #404040;
+}
+
+.MuiTextField-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #90caf9;
+}
+
+.MuiButton-contained {
+  background-color: #90caf9 !important;
+  color: #000000 !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #64b5f6 !important;
+}
+
+/* VS Code-like scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a4a;
+}
+
+/* File Explorer styles */
+.MuiListItem-root {
+  min-height: 32px !important;
+  padding: 0 8px !important;
+}
+
+.MuiListItemIcon-root {
+  min-width: 24px !important;
+  margin-right: 8px !important;
+}
+
+/* Terminal styles */
+.terminal-output {
+  font-family: 'Consolas', 'Monaco', monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.terminal-error {
+  color: #ff6b6b;
+}
+
+.terminal-success {
+  color: #0D9373;
+}
