@@ -13,6 +13,9 @@ import FileExplorer from './components/FileExplorer';
 import Terminal from './components/Terminal';
 import './App.css';
 
+
+
+//app.js code comment 
 const theme = createTheme({
   palette: {
     mode: 'dark',
